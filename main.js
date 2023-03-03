@@ -80,7 +80,7 @@ function getRandomInt(max) {
 function ChooseNumber() {
     let randomNum = getRandomInt(100)
     while (true) {
-        let n = parseInt(prompt('Введите числот от 0 до 100'))
+        let n = Number(prompt('Введите числот от 0 до 100'))
         if(isNaN(n)){
             console.log('Вы ввели не число')
         }
